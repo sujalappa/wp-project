@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img.logo {
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.department-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.department {
+    width: 23%;
+}
+
+.department button {
+    background-color: #008080;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.department button:hover {
+    background-color: #0066cc;
+}
+
+ 
+    .dropdown {
+        display: none;
+        background-color: #f9f9f9;
+        padding: 10px;
+    }
+    .dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.department:hover .dropdown {
+    display: block;
+}
+
+.section-button {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.section-button:hover {
+    background-color: #c0c0c0;
+}
+
+footer {
+    background-color: #008080;
+    text-align: center;
+    padding: 10px;
+}
