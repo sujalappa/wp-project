@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img.logo {
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#faculty-group-photo {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#faculty-group-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#basic-science-faculty,
+#cs-faculty,
+#ece-faculty {
+    padding: 20px;
+    text-align: center;
+}
+
+.head-of-department {
+    background-color: #008080;
+    text-align: center;
+    padding: 20px;
+    height: 275px;
+    border-radius: 20px;
+}
+
+.head-of-department img.hod-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.head-of-department h3 {
+    color: #000000;
+}
+
+.faculty-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.faculty-member {
+    background-color: #008080;
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.faculty-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.faculty-member img {
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
